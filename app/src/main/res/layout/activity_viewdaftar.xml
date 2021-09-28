@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".viewdaftar">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/orange"
+        android:gravity="left"
+        android:text="Daftar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/Rectangle_2"
+        android:gravity="left"
+        android:hint="Nama Lengkap"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@drawable/Rectangle_2"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Nomor Handphone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@drawable/Rectangle_2"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@drawable/Rectangle_2"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Kata Sandi"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syarat dan Ketentuan"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="DAFTAR SEKARANG "
+        android:backgroundTint="@color/orange"
+        android:layout_marginBottom="210dp"
+        android:layout_marginLeft="115dp"/>
+
+</RelativeLayout>

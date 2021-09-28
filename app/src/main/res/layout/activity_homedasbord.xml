@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".homedasbord">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bgputihrounded_1" />
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-13dp"
+        android:background="@drawable/kotabawah_1" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/iconpesawat_1" />
+
+    // Bagian fitur Button tiket pesawat dan hotel
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="-5dp"
+        android:text="Tiket Pesawat" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/hotelicon_1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="260dp"
+        android:text="Hotel" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/photo_1" />
+
+    // Bagian fitur Button tiket pesawat dan hotel
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang,Kembali"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jane Cooper"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="7pt"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/button_1"
+        android:backgroundTint="@color/grey"
+        android:text="$779.58"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:textSize="10pt" />
+
+    // Button Screen Bawah
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="678dp"
+        android:background="@drawable/mail_icon" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="679dp"
+        android:background="@drawable/search_icon"
+        android:backgroundTint="#000000" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="679dp"
+        android:background="@drawable/home_icon"
+        android:backgroundTint="#000000" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="678dp"
+        android:background="@drawable/akun_icon"/>
+
+
+    // Gambar Destinasi Wisata
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="323dp"
+        android:background="@drawable/destinasi_1" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="323dp"
+        android:background="@drawable/destinasi_2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="323dp"
+        android:background="@drawable/destinasi_3" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="323dp"
+        android:background="@drawable/destinasi_4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="293dp"
+        android:text="DESTINASI WISATA POPULER"
+        android:textStyle="bold" />
+
+    // Gambar Destinasi Hotel
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:text="TEMUKAN PENGALAMAN MENGINAP"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hotel_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="508dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hotel_2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="508dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hotel_3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="508dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hotel_4"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="508dp"/>
+
+
+
+
+</RelativeLayout>
