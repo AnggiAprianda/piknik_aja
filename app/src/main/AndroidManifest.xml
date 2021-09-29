@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Piknik_aja">
         <activity
+            android:name=".TampilanKeberangkatan"
+            android:exported="true" />
+        <activity
+            android:name=".TampilanNotifikasi"
+            android:exported="true" />
+        <activity
+            android:name=".TampilanAkunSaya"
+            android:exported="true" />
+        <activity
             android:name=".detailpembayaran"
             android:exported="true" />
         <activity
