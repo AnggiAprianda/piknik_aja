@@ -15,11 +15,9 @@
         <entry key="..\:/Users/own/AndroidStudioProjects/piknik_aja/app/src/main/res/layout/activity_tampilan_akun_saya.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/own/AndroidStudioProjects/piknik_aja/app/src/main/res/layout/activity_tampilan_keberangkatan.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/own/AndroidStudioProjects/piknik_aja/app/src/main/res/layout/activity_tampilan_notifikasi.xml" value="0.1272644927536232" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/piknik_aja1/app/src/main/res/layout/activity_pembayaran.xml" value="0.2" />
       </map>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_logoPA_background.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
