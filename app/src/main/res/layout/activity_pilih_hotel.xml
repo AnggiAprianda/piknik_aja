@@ -4,7 +4,15 @@
     android:layout_width="match_parent"
     android:background="@color/bg_green"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Pilih_hotel">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panah"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -16,56 +24,65 @@
     <TextView
         android:layout_width="162dp"
         android:layout_height="32dp"
-        android:layout_marginStart="131dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="133dp"
         android:background="@drawable/button1"
         android:paddingStart="50dp"
         android:paddingTop="4dp"
-        android:text="@string/pesanan"
+        android:text="@string/pilih_hotel"
         android:textColor="#FFFF"
         android:textStyle="bold"
-        tools:ignore="RtlSymmetry,TextContrastCheck" />
+        tools:ignore="RtlSymmetry,TextContrastCheck"/>
 
     <TextView
-        android:layout_width="121dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="198dp"
-        android:background="@drawable/button1"
-        android:paddingStart="2dp"
-        android:paddingTop="2dp"
-        android:text="@string/detail_pesanan"
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        tools:ignore="RtlSymmetry,TextContrastCheck" />
-
-    <TextView
-        android:layout_width="380dp"
-        android:layout_height="355dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="245dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/bgabu"
-        android:gravity="center"
-        android:paddingBottom="190dp"
-        android:text="@string/anda_telah_melakukan_pemesanan_hotel_ciputra_world_surabaya_untuk_tanggal_21_juli_2021"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="500dp"
-        android:background="@drawable/button2"
-        android:paddingStart="45dp"
-        android:paddingTop="9dp"
-        android:text="@string/lanjut"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="191dp"
+        android:background="@drawable/kotak1"
+        android:paddingStart="15sp"
+        android:paddingTop="11sp"
+        android:text="@string/_21_juli_2021"
         android:textColor="#ff000000"
         android:textSize="15sp"
         android:textStyle="bold"
         tools:ignore="RtlSymmetry" />
+
+
+    <TextView
+        android:id="@+id/Surabaya"
+        android:layout_width="195dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="227dp"
+        android:text="@string/surabaya"
+        android:textColor="#FF000000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/hotel"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/hotel"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/hotel"
+        android:contentDescription="@string/todo"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -105,16 +122,6 @@
         android:layout_marginTop="685dp"
         android:layout_marginStart="330dp"
         android:contentDescription="@string/todo" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/panah"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="20dp"
-        android:contentDescription="@string/todo" />
-
-
 
 
 
